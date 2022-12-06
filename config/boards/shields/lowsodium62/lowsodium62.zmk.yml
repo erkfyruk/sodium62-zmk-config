@@ -1,0 +1,11 @@
+file_format: "1"
+id: lowsodium62
+name: lowsodium62
+type: shield
+url: https://nacly.net
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - lowsodium62_left
+  - lowsodium62_right
