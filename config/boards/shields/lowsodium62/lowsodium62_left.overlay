@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "sodium62.dtsi"
+#include "lowsodium62.dtsi"
 
 &kscan0 {
 	col-gpios
