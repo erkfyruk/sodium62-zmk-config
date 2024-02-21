@@ -15,21 +15,20 @@
       compatible = "zmk,keymap";
   layer0 {
           bindings = <
-          &kp ESCAPE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp BACKSLASH &kp LEFT_GUI &kp A &kp S &kp D &lt 1 F &kp G &kp H &lt 2 J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE &kp LEFT_SHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp RIGHT_SHIFT &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_ALT &kp GRAVE &kp EQUAL &kp BACKSPACE &kp ENTER &kp DELETE &kp SPACE &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp HOME &kp END &kp ESCAPE
+          &kp ESCAPE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp BACKSLASH &kp INSERT &kp A &kp S &kp D &lt 1 F &kp G &kp H &lt 2 J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE &kp LEFT_SHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp RIGHT_SHIFT &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_ALT &kp GRAVE &kp EQUAL &kp BACKSPACE &kp ENTER &kp DELETE &kp SPACE &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp HOME &kp END &kp ESCAPE
           >;
         };layer1 {
           bindings = <
-          &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp LEFT_GUI &kp F20 &kp F20 &kp F20 &trans &kp F20 &kp F20 &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp F20 &kp LEFT_SHIFT &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp RIGHT_SHIFT &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_ALT &kp F20 &kp F20 &kp F20 &kp F20 &kp HOME &kp END &kp F20 &kp F20 &kp F20 &kp F20 &kp F20
+          &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp UP &kp F20 &kp F20 &kp HOME &kp INSERT &kp F20 &kp F20 &kp F20 &trans &kp F20 &kp F20 &kp LEFT &kp DOWN &kp RIGHT &kp F20 &kp END &kp LEFT_SHIFT &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp RIGHT_SHIFT &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_ALT &kp F20 &kp F20 &kp F20 &kp ENTER &kp PAGE_UP &kp PAGE_DOWN &kp F20 &kp F20 &kp F20 &kp F20 &kp ESCAPE
           >;
         };layer2 {
           bindings = <
-          &kp C_MUTE &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp C_PREVIOUS &kp C_PLAY_PAUSE &kp C_NEXT &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &trans &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_ALT &kp F20 &kp F20 &kp F14 &kp F15 &kp ENTER &kp SPACE &kp F20 &kp F20 &kp F20 &kp F20 &tog 3
+          &kp C_MUTE &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp F13 &kp F14 &kp F15 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp C_PREVIOUS &kp C_PLAY_PAUSE &kp C_NEXT &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp HOME &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &trans &kp F20 &kp F20 &kp F20 &kp END &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_ALT &kp F20 &kp F20 &kp F20 &kp ENTER &kp F20 &kp SPACE &kp F20 &kp F20 &kp F20 &kp F20 &tog 3
           >;
         };layer3 {
           bindings = <
-          &kp ESCAPE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp BACKSLASH &kp LEFT_CONTROL &kp A &kp S &kp D &kp F &kp G &kp H &lt 2 J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE &kp LEFT_SHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp RIGHT_SHIFT &kp LEFT_CONTROL &kp F20 &kp M &kp GRAVE &kp SPACE &kp BACKSPACE &kp DELETE &kp ENTER &kp SPACE &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp HOME &kp END &to 0
+          &kp ESCAPE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp BACKSLASH &kp INSERT &kp A &kp S &kp D &kp F &kp G &kp H &lt 2 J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE &kp LEFT_SHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp RIGHT_SHIFT &kp LEFT_CONTROL &kp F20 &kp M &kp GRAVE &kp SPACE &kp BACKSPACE &kp ENTER &kp DELETE &kp SPACE &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp HOME &kp END &to 0
           >;
         };
     };
   };
-
